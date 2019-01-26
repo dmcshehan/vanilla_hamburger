@@ -1,0 +1,68 @@
+.background{
+    width:100px;
+    height:100px;
+    background:red;
+    position:absolute;
+    right:0;
+    top:0;
+    border-bottom-left-radius:100%;
+    transition:all .5s cubic-bezier(.83,-0.37,.15,1.37);
+  }
+  
+  .background.open{
+    
+    width:50vw;
+    height:50vw;
+    
+  }
+  
+  .ham{
+    height:2px;
+    background:white;
+    width:20px;
+    position:absolute;
+    right:20px;
+    top:20px;
+  }
+  
+  .hamContainer:hamContainer{
+    cursor:pointer;
+  }
+  
+  .ham::after,
+  .ham::before{
+    content:'';
+    position:absolute;
+    height:2px;
+    background:white;
+    width:20px;
+    right:0;
+  }
+  .ham::after{
+    top:5px;
+  }
+  
+  .ham::before{
+    bottom:5px;
+  }
+  
+  .hamContainer{
+    height:50px;
+    background:transparent;
+    width:50px;
+    position:absolute;
+    right:20px;
+    top:20px;
+  }
+  
+  .hamContainer:hover{
+    cursor:pointer;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
